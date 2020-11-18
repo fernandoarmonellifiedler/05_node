@@ -90,4 +90,4 @@ logger.log('message');
 - create a class that extends EventEmitter
 - this class will have all the funcionality to find an EventEmitter but you can also add additional funcionality like the log(message)
 - then, inside that class, whenever you want to raise an event you´re gonna use this.emit (that references the Loger class itself which extends EventEmitter)
-- finalli, in app.js, instead of using an instance of EventEmitter you will use an instance of the custom class that you have defined that extends EventEmitter */
+- finally, in app.js, instead of using an instance of EventEmitter you will use an instance of the custom class that you have defined that extends EventEmitter */

@@ -19,6 +19,7 @@ emitter.on('messageLogged', (arg) => {
     console.log('Listener called', arg);
 });
 
+
 /* A simple exercise: 
 - Imagine in our logger module just before calling a remote service to log the message. We´re going to raise an event called logging.
 - With this event we want to send some data, the message that we want to log */
